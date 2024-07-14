@@ -123,4 +123,4 @@ def main():
 
 if __name__ == '__main__':
     main()
-# todo 上传的问题解决 streamlit run D:\wechat-agant\ask-multiple-pdfs\app.py --server.enableXsrfProtection=false
+# todo 上传的问题解决 streamlit run D:\app.py --server.enableXsrfProtection=false
