@@ -51,7 +51,7 @@ def get_vectorstore(text_chunks):
 
 def get_conversation_chain(vectorstore):
     #llm = OpenAI(#这里要是用chatopenai否则是直接使用openai的接口，到时候就会是直接封禁的样子如下：The API you are accessing is not open' 。
-    #    api_key = "sk-6FVrHsAHr1zgJeNgtz6KaMrDHjMQYZQzFRlEJRDC4RJMoZFt",
+    #    api_key = "key",
     #    base_url = "https://api.moonshot.cn/v1")
     llm = ChatOpenAI(#调用kimi的接口
     openai_api_base="https://api.moonshot.cn/v1/",
